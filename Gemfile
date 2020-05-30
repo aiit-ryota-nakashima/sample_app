@@ -15,6 +15,8 @@ gem 'turbolinks', '5.2.0'
 gem 'jbuilder', '2.9.1'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '1.4.4', require: false
+# Add Bootstrap
+gem 'bootstrap-sass', '3.4.1'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
