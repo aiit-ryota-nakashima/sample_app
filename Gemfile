@@ -2,9 +2,9 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '6.0.0'
+gem 'rails', '6.0.3'
 # Use Puma as the app server
-gem 'puma', '3.12.1'
+gem 'puma', '4.3.5'
 # Use SCSS for stylesheets
 gem 'sass-rails', '5.1.0'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
@@ -14,7 +14,7 @@ gem 'turbolinks', '5.2.0'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '2.9.1'
 # Reduces boot times through caching; required in config/boot.rb
-gem 'bootsnap', '1.4.4', require: false
+gem 'bootsnap', '1.4.5', require: false
 # Add Bootstrap
 gem 'bootstrap-sass', '3.4.1'
 # Use Redis adapter to run Action Cable in production
@@ -23,7 +23,7 @@ gem 'bootstrap-sass', '3.4.1'
 gem 'bcrypt', '3.1.13'
 
 gem 'faker', '2.1.2'
-gem 'will_paginate',           '3.1.8'
+gem 'will_paginate', '3.1.8'
 gem 'bootstrap-will_paginate', '1.0.0'
 
 # Use Active Storage variant
